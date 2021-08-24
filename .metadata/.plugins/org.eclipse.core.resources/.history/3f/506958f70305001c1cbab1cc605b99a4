@@ -1,0 +1,6 @@
+package State;
+
+public class Main {
+	Mario mario = new Mario();
+	
+}

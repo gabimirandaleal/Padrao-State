@@ -1,0 +1,9 @@
+package State;
+
+public class Mario {
+	protected MarioState estado;
+	
+	public Mario() {
+		estado = new MarioPequeno();
+	}
+}

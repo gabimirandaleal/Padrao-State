@@ -1,0 +1,5 @@
+package State;
+
+public interface MarioState{
+	public default void pegarFogo() {}
+}

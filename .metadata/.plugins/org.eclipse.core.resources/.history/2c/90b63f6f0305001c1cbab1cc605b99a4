@@ -1,0 +1,18 @@
+package State;
+
+public class MarioGrande implements MarioState{
+
+	@Override
+	public MarioState pegarCogumelo() {
+		System.out.println("Mario ganhou 1000 pontos");
+		return null;
+	}
+
+	
+	@Override
+	public MarioState levarDano() {
+		System.out.println("Mario pequeno");
+		return null;
+	}
+
+}

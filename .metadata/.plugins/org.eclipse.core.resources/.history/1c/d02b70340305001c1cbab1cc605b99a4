@@ -1,0 +1,29 @@
+package State;
+
+public class MarioPequeno implements MarioState{
+
+	@Override
+	public MarioState pegarCogumelo() {
+		System.out.println("Mario Grande");
+		return null;
+	}
+
+	@Override
+	public MarioState pegarFlor() {
+		System.out.println("Mario grande com fogo");
+		return null;
+	}
+
+	@Override
+	public MarioState pegarPena() {
+		System.out.println("Mario Grande com capa");
+		return null;
+	}
+
+	@Override
+	public MarioState levarDano() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

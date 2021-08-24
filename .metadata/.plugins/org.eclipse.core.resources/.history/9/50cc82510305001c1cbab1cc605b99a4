@@ -1,0 +1,29 @@
+package State;
+
+public class MarioGrande implements MarioState{
+
+	@Override
+	public MarioState pegarCogumelo() {
+		System.out.println("Mario ganhou 1000 pontos");
+		return null;
+	}
+
+	@Override
+	public MarioState pegarFlor() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public MarioState pegarPena() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public MarioState levarDano() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

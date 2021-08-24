@@ -1,0 +1,15 @@
+package State;
+
+public class Main {
+	
+	public static void main(String[] args) {
+		Mario mario = new Mario();
+		System.out.println(mario.estado);
+		mario.pegarCogumelo();
+		System.out.println(mario.estado);
+		mario.levarDano();
+		System.out.println(mario.estado);
+		mario.levarDano();
+	}
+	
+}
